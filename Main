@@ -1,0 +1,14 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        Aluno aluno = new Aluno("Natacha", "natachacalixto", "123467",243,"Engenharia de Software");
+
+        Professor professor = new Professor("Mauro", "ptofessormauro", "senha123");
+
+        professor.publicarNota(aluno);
+
+        aluno.fazerLogin("natachacalixto", "123467");
+        
+    }
+}
